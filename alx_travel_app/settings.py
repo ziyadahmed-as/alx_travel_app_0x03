@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+    # Custom apps
     'listings',  # Your listings app
     'rest_framework',  # Django REST Framework for API development
      'celery',
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 ]
 
 # Celery
+# Celery configuration
 CELERY_BROKER_URL = "amqp://guest:guest@localhost:5672//"
 CELERY_RESULT_BACKEND = "rpc://"
 CELERY_ACCEPT_CONTENT = ["json"]

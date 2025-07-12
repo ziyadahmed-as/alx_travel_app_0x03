@@ -1,0 +1,4 @@
+travel/
+.env
+# Ignore the travel directory and its contents
+# Ignore the .env file

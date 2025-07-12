@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     
     'listings',  # Your listings app
     'rest_framework',  # Django REST Framework for API development
-     
+     'celery',
+     'django_celery_results'
 ]
 
 # Celery

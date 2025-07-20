@@ -42,10 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Custom apps
-    'listings',  # Your listings app
+   'listings',  # Your listings app
     'rest_framework',  # Django REST Framework for API development
-     'celery',
-     'django_celery_results'
+    'celery',
+    'django_celery_results'
 ]
 
 # Celery
